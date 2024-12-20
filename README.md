@@ -60,7 +60,7 @@ Analyses spatial relationships and cell-cell interactions within the tissue micr
 - **`02_Test_Cell-Cell_Interactions.R`**: Tests statistical relationships between cell types and their spatial proximities.  
 
 ## Project Highlights  
-1. **Cellpose Training**: Improved segmentation accuracy by leveraging human-in-the-loop annotations.  
-2. **Cellpose Quantification**: Developed a CLI tool to automate high-throughput cell quantification.  
+1. **Cellpose Training**: Improved segmentation accuracy by leveraging human-in-the-loop annotations on tumourgenic images allowing for more accuarte cell segmentation.  
+2. **Cellpose Quantification**: Developed a CLI tool to automate high-throughput single-cell quantification from tissue images and their respective masks.  
 3. **Heterogeneity Analysis**: Showed significant variability in ANAX1 expression across patients, phenotypes, and subtypes.  
 4. **Spatial Analysis**: Uncovered epithelial structure loss and altered cell-cell interactions in tumorigenesis.  
