@@ -15,7 +15,7 @@ This folder contains scripts for preprocessing raw IHC images and preparing them
 - **`01_Distortion_Removal.ipynb`**: Removes visual distortions in cohort images using a shape detection algorithm. 
 
 Example of distortion removal:  
-  ![Distortion Removal](images/distortion_removal.png)   
+  ![Distortion Removal](images/distortion.png)   
 
 - **`02_Split_Images.ipynb`**: Splits large core images into smaller 512x512 regions, optimal for Cellpose training and segmentation.  
 
@@ -40,7 +40,7 @@ Scripts to process and summarise single-cell phenotypes and patient cohort data.
 - **`01_filter_&_phenotype.R`**: Filters data and assigns phenotypes to segmented cells.  
 
  Example of a phenotyped image:  
-  ![Phenotyped Image](images/phenotyped_image.png)  
+  ![Phenotyped Image](images/phenotype_image.png)  
 
 - **`02_plotting_patients.R`**: Generates visual summaries of patient-level marker expression and phenotypic distributions.  
 
