@@ -15,9 +15,6 @@ library(scales)
 
 
 #--------------------------------Loading Images------------------------------------#
-images <- loadImages("./path/to/data",)
-masks <- loadImages("./path/to/data",)
-
 
 markers_columns <- c("Nuclear","CD31","CK5","SMA","Ki67","CK8","ANAX1","ECAD","PCNT","CCASP3")
 class_colors <- c(Luminal = "#51abcb", BnL = "#f8766d",Basal = "red", `Blood Vessel` = "#a3a500", LnB = "#00b0f6",Undefined = "grey")
